@@ -1,0 +1,50 @@
+# idea ignore
+*.ipr
+*.iml
+*.iws
+
+.vscode/
+
+*.swp
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.exe
+*.exe~
+*.patch
+*.tmp
+*debug.test
+
+# system ignore
+.DS_Store
+Thumbs.db
+.idea
+
+# project
+*.cert
+*.key
+.test
+iprepo.txt
+*.ini
+
+app/*/*/cmd/cmd
+app/*/*/*/cmd/cmd
+app/*/*/cmd/debug
+app/*/*/*/cmd/debug
+
+bazel-bin
+bazel-genfiles
+bazel-go-common
+bazel-out
+bazel-testlogs
+bazel-test
+_output
+
+vendor/
+
+air.conf
+
+*.exe
+
